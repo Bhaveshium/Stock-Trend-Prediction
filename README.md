@@ -3,15 +3,15 @@
 📄 <b>Overview</b> <br>
 This project focused on predicting stock prices using a Long Short-Term Memory (LSTM) neural network. This project aims to apply machine learning techniques to forecast the closing price of a specific stock based on historical data. The repository includes data preprocessing, model building, training, and evaluation code.
   
-  <img src="https://github.com/Bhaveshium/Sales-Analysis-with-Power-BI/blob/main/SuperStore%20Sales%20Dashboard.jpeg" alt="project-screenshot" width="921" height="526/">
+  <img src="https://github.com/Bhaveshium/Stock-Trend-Prediction/blob/main/Stock%20trend%20img.jpg" alt="project-screenshot" width="950" height="526/">
 
 
 🛠️ <b>Project Components </b> <br> 
 <b>Data Source: </b>  The project utilizes stock data retrieved from Yahoo Finance (yfinance library) for a given period. <br> 
 <b>Data Processing: </b>  The dataset is processed to calculate moving averages and normalize the values to prepare them for training. <br> 
 <b>Model Architecture: </b>  LSTM layers with varying units (50, 60, 80, 120). <br> 
-Dropout layers to prevent overfitting. <br> 
-Dense layer to compile the final output. <br> 
+🔹Dropout layers to prevent overfitting. <br> 
+🔹Dense layer to compile the final output. <br> 
 <b>Training: </b>  The model is trained on 70% of the data, with the remaining 30% used for testing and validation. <br> 
 <b>Evaluation: </b>  The model's performance is evaluated by comparing predicted stock prices against actual prices. <br> 
 
